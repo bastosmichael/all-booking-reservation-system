@@ -1,0 +1,686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-reservation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-04 20:30+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alexey Isaev <saint739@yandex.ru>\n"
+"Language-Team: Alexey Isaev <saint739@yandex.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wp-res-pro.php:513
+msgid "Enter your username and password then click \"Login\""
+msgstr "Введите логин и пароль и нажмите \"Войти\""
+
+#: wp-res-pro.php:516
+msgid "Login (email)"
+msgstr "Логин (емейл)"
+
+#: wp-res-pro.php:518
+#: wp-reservation.php:902
+msgid "Password"
+msgstr "Пароль"
+
+#: wp-res-pro.php:520
+#: wp-reservation.php:904
+msgid "Login"
+msgstr "Войти"
+
+#: wp-res-pro.php:527
+msgid "Password recovery"
+msgstr "Восстановление пароля"
+
+#: wp-res-pro.php:547
+msgid "Cancel order #"
+msgstr "Отмена заказ №"
+
+#: wp-res-pro.php:548
+msgid "Cancellation message  sent to administrator"
+msgstr "Сообщение об отмени брони отправлено администратору"
+
+#: wp-res-pro.php:579
+msgid "Order value"
+msgstr "Стоимость заказа"
+
+#: wp-res-pro.php:580
+#: wp-reservation.php:1703
+#: wp-reservation.php:2239
+#: wp-reservation.php:2275
+msgid "Start date"
+msgstr "Начальная дата"
+
+#: wp-res-pro.php:581
+#: wp-reservation.php:1704
+#: wp-reservation.php:2240
+#: wp-reservation.php:2276
+msgid "End date"
+msgstr "Конечная дата"
+
+#: wp-res-pro.php:582
+#: wp-reservation.php:1707
+msgid "Paid"
+msgstr "Оплачено"
+
+#: wp-res-pro.php:583
+#: wp-res-pro.php:610
+msgid "Cancel"
+msgstr "Отменить"
+
+#: wp-res-pro.php:630
+msgid "You don't have a reservation"
+msgstr "У вас нет ни одного заказа"
+
+#: wp-res-pro.php:661
+#: wp-reservation.php:1199
+msgid "Send"
+msgstr "Отправить"
+
+#: wp-res-pro.php:695
+msgid "PayOnlineSystem (Visa, MasterCard, American Express, Diners Club)"
+msgstr ""
+
+#: wp-res-pro.php:700
+#: wp-res-pro.php:724
+#: wp-res-pro.php:744
+#: wp-res-pro.php:780
+#: wp-res-pro.php:796
+#: wp-reservation.php:1237
+#: wp-reservation.php:1283
+msgid "Parameter"
+msgstr "Параметр"
+
+#: wp-res-pro.php:701
+#: wp-res-pro.php:725
+#: wp-res-pro.php:745
+#: wp-res-pro.php:781
+#: wp-res-pro.php:797
+#: wp-reservation.php:1238
+#: wp-reservation.php:1284
+msgid "Value"
+msgstr "Значение"
+
+#: wp-res-pro.php:705
+msgid "merchantId"
+msgstr ""
+
+#: wp-res-pro.php:709
+msgid "ReturnUrl"
+msgstr ""
+
+#: wp-res-pro.php:713
+msgid "securityKey"
+msgstr ""
+
+#: wp-res-pro.php:719
+msgid "Robokassa (Yandex.Money, MoneyMail, RBK Money, SMS, Visa, MasterCard ...)"
+msgstr ""
+
+#: wp-res-pro.php:729
+msgid "mrh_login"
+msgstr ""
+
+#: wp-res-pro.php:733
+msgid "mrh_pass1"
+msgstr ""
+
+#: wp-res-pro.php:739
+msgid "SberBank"
+msgstr "Сбербанк"
+
+#: wp-res-pro.php:749
+msgid "Company name"
+msgstr "Название компании"
+
+#: wp-res-pro.php:753
+msgid "INN"
+msgstr "ИНН"
+
+#: wp-res-pro.php:757
+msgid "Bank account"
+msgstr "Бансковский счёт"
+
+#: wp-res-pro.php:761
+msgid "Bank name"
+msgstr "Название банка"
+
+#: wp-res-pro.php:765
+msgid "BIK"
+msgstr "БИК"
+
+#: wp-res-pro.php:769
+msgid "Correspondent account"
+msgstr "Корр. счёт"
+
+#: wp-res-pro.php:775
+msgid "Webmoney"
+msgstr ""
+
+#: wp-res-pro.php:785
+msgid "Webmoney purse"
+msgstr "Кошелёк Webmoney"
+
+#: wp-res-pro.php:791
+msgid "Mobcash, QIWI"
+msgstr "Мобильный кошелёк (QIWI)"
+
+#: wp-res-pro.php:801
+msgid "Registration number"
+msgstr "Регистрационный номер"
+
+#: wp-res-pro.php:805
+msgid "Lifetime bill in hours"
+msgstr "Время жизни счёта в часах"
+
+#: wp-res-pro.php:815
+msgid "Pay Order"
+msgstr "Оплатить заказ."
+
+#: wp-res-pro.php:820
+msgid "Mob cash"
+msgstr "Мобильный кошелёк"
+
+#: wp-res-pro.php:832
+msgid "Sberbank"
+msgstr "Сбербанк"
+
+#: wp-res-pro.php:848
+#: wp-reservation.php:551
+#: wp-reservation.php:810
+#: wp-reservation.php:985
+#: wp-reservation.php:1998
+msgid "Continue"
+msgstr "Продолжить"
+
+#: wp-reservation.php:114
+#: wp-reservation.php:316
+#: wp-reservation.php:1163
+#: wp-reservation.php:1227
+msgid "Settings"
+msgstr "Настройки"
+
+#: wp-reservation.php:115
+msgid "Donate!"
+msgstr ""
+
+#: wp-reservation.php:125
+msgid "Дополнительные поля (wp-reservation)"
+msgstr "Extended fields (wp-reservation)"
+
+#: wp-reservation.php:131
+msgid "Телефон"
+msgstr "Phone"
+
+#: wp-reservation.php:196
+#: wp-reservation.php:686
+#: wp-reservation.php:2128
+msgid "You must select at least one of the numbers"
+msgstr "Нужно выбрать хотя бы один из номеров"
+
+#: wp-reservation.php:201
+#: wp-reservation.php:934
+msgid " - Not specified (Name)"
+msgstr "- Не указаны ФИО"
+
+#: wp-reservation.php:207
+#: wp-reservation.php:944
+msgid " - Not specified (Telephone Number)"
+msgstr "- Не указан контактный телефон"
+
+#: wp-reservation.php:212
+#: wp-reservation.php:954
+msgid " - You must agree to the terms"
+msgstr "- Вы должны согласиться с правилами"
+
+#: wp-reservation.php:218
+#: wp-reservation.php:236
+#: wp-reservation.php:725
+#: wp-reservation.php:962
+msgid "When completing the form, the following error(s) occurred:"
+msgstr "При заполнении формы произошли следующие ошибки:"
+
+#: wp-reservation.php:232
+msgid " - Not specified (email address)"
+msgstr "- Не указан email"
+
+#: wp-reservation.php:239
+#: wp-reservation.php:733
+msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
+msgstr "неверный email адрес.  Адрес должен быть вида: <code>username@example.com</code>"
+
+#: wp-reservation.php:250
+#: wp-reservation.php:1094
+msgid "You have not chosen a payment system"
+msgstr "Вы не выбрали систему оплаты"
+
+#: wp-reservation.php:312
+#: wp-reservation.php:313
+#: wp-reservation.php:314
+#: wp-reservation.php:315
+#: wp-reservation.php:316
+msgid "Reservation"
+msgstr "Бронирование"
+
+#: wp-reservation.php:313
+#: wp-reservation.php:1160
+#: wp-reservation.php:1961
+msgid "Reserve"
+msgstr "Забронировать"
+
+#: wp-reservation.php:314
+#: wp-reservation.php:1161
+#: wp-reservation.php:1439
+#: wp-reservation.php:1846
+#: wp-reservation.php:1878
+#: wp-reservation.php:2237
+#: wp-reservation.php:2273
+msgid "Resources"
+msgstr "Ресурсы"
+
+#: wp-reservation.php:315
+#: wp-reservation.php:1162
+#: wp-reservation.php:2231
+msgid "Special offers"
+msgstr "Специальные предложения"
+
+#: wp-reservation.php:317
+#: wp-reservation.php:1693
+msgid "Orders"
+msgstr "Заказы"
+
+#: wp-reservation.php:514
+#: wp-reservation.php:1966
+msgid "To see prices and availability, enter your arrival date and length of stay in the search form below."
+msgstr "Пожалуйста, введите дату заезда и количество дней проживания, чтобы проверить наличие мест"
+
+#: wp-reservation.php:593
+#: wp-reservation.php:2039
+msgid "Please select the number of rooms you want to book, and the number of persons in your party."
+msgstr "Пожалуйста выберите один или несколько номеров, которые вы хотите заказать, и выберите количество человек."
+
+#: wp-reservation.php:616
+#: wp-reservation.php:757
+#: wp-reservation.php:871
+#: wp-reservation.php:1914
+#: wp-reservation.php:2059
+msgid "price"
+msgstr "цена"
+
+#: wp-reservation.php:616
+#: wp-reservation.php:756
+#: wp-reservation.php:870
+#: wp-reservation.php:2059
+msgid "persons"
+msgstr "кол-во человек"
+
+#: wp-reservation.php:667
+#: wp-reservation.php:2109
+msgid "Book now"
+msgstr "Заказать"
+
+#: wp-reservation.php:701
+#: wp-reservation.php:2143
+msgid "No information about free rooms"
+msgstr "Нет информаци о свободных номерах"
+
+#: wp-reservation.php:751
+#: wp-reservation.php:865
+#, php-format
+msgid "Your order from %s to %s "
+msgstr "Ваш заказ с %s по %s"
+
+#: wp-reservation.php:755
+#: wp-reservation.php:869
+msgid "room"
+msgstr "номер"
+
+#: wp-reservation.php:775
+#: wp-reservation.php:886
+#: wp-reservation.php:1912
+msgid "Total"
+msgstr "Итого"
+
+#: wp-reservation.php:804
+msgid "Enter your email"
+msgstr "Введите Email"
+
+#: wp-reservation.php:897
+#, php-format
+msgid "<p>Mail us <b>% s </ b> is already registered in the system, enter your password and click \"Login\"</p>"
+msgstr "<p>Еmail <b>%s</b> уже зарегистрирован в системе, введите ваш пароль и нажмите \"Войти\"</p>"
+
+#: wp-reservation.php:913
+msgid "Lost Password"
+msgstr "Забыли пароль?"
+
+#: wp-reservation.php:977
+msgid "Enter your personal data"
+msgstr "Введите свои персональные данные"
+
+#: wp-reservation.php:979
+msgid "Last name"
+msgstr "Имя"
+
+#: wp-reservation.php:980
+msgid "First name"
+msgstr "Фамилия"
+
+#: wp-reservation.php:981
+msgid "Middle name"
+msgstr "Очество"
+
+#: wp-reservation.php:982
+#: wp-reservation.php:1053
+msgid "Arrival"
+msgstr "Время прибытия"
+
+#: wp-reservation.php:983
+msgid "Phone"
+msgstr "Телефон"
+
+#: wp-reservation.php:984
+msgid "I agree with the terms of booking"
+msgstr "Я согласен с правилами"
+
+#: wp-reservation.php:1004
+msgid "Order created"
+msgstr "Заказ сформирован"
+
+#: wp-reservation.php:1032
+#, php-format
+msgid "<p> For your order to create an account. </p> <p> Your login <b>%s</b> <br> your password <b>%s</b> </p>"
+msgstr "<p>Для вашего заказа создана учётная запись.</p><p>Ваш логин <b>%s</b><br>Ваш пароль <b>%s</b></p>"
+
+#: wp-reservation.php:1034
+msgid "Registration on "
+msgstr "Регистрация на "
+
+#: wp-reservation.php:1034
+#, php-format
+msgid "Thank you for your order! For your order to create an account. Your Login %s Your password %s"
+msgstr "Благодарим вас за заказ! Для вашего заказа создана учётная запись. Ваш логин %s Ваш пароль %s"
+
+#: wp-reservation.php:1124
+msgid "Thank you for your order"
+msgstr "Благодарим вас за заказ"
+
+#: wp-reservation.php:1159
+#, php-format
+msgid "Orders (total: %s | paid: %s)"
+msgstr "Заказы (всего: %s | оплаченых: %s)"
+
+#: wp-reservation.php:1185
+msgid "Message sent"
+msgstr "Сообщение отправлено"
+
+#: wp-reservation.php:1190
+#: wp-reservation.php:1452
+msgid "Name"
+msgstr "Имя"
+
+#: wp-reservation.php:1190
+msgid "Order"
+msgstr "Заказ"
+
+#: wp-reservation.php:1190
+#: wp-reservation.php:1452
+msgid "Price"
+msgstr "Цена"
+
+#: wp-reservation.php:1190
+msgid "Date start"
+msgstr "Дата с"
+
+#: wp-reservation.php:1190
+msgid "to"
+msgstr "по"
+
+#: wp-reservation.php:1193
+msgid "To"
+msgstr "Кому"
+
+#: wp-reservation.php:1195
+msgid "Subject"
+msgstr "Тема письма"
+
+#: wp-reservation.php:1197
+msgid "Message"
+msgstr "Текст сообщения"
+
+#: wp-reservation.php:1220
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: wp-reservation.php:1232
+msgid "Design settings"
+msgstr "Визуальные настройки"
+
+#: wp-reservation.php:1242
+msgid "Plugin colors (CSS)"
+msgstr "Цвет плагина (CSS)"
+
+#: wp-reservation.php:1261
+msgid "Calendar colors (CSS)"
+msgstr "Цвет календаря (CSS)"
+
+#: wp-reservation.php:1279
+msgid "Security settings"
+msgstr "Настройки безопасности"
+
+#: wp-reservation.php:1287
+msgid "User access level to plugin"
+msgstr "Уровень доступа пользователя для плагина"
+
+#: wp-reservation.php:1295
+msgid "User access level to settings"
+msgstr "Уровень доступа пользователя для настроек"
+
+#: wp-reservation.php:1310
+msgid "Save"
+msgstr "Сохранить"
+
+#: wp-reservation.php:1334
+msgid "Styles not found"
+msgstr "Стили не найдены"
+
+#: wp-reservation.php:1404
+#: wp-reservation.php:1660
+#: wp-reservation.php:1799
+#: wp-reservation.php:2192
+msgid "Record added"
+msgstr "Запись добавлена"
+
+#: wp-reservation.php:1408
+#: wp-reservation.php:1665
+#: wp-reservation.php:1803
+#: wp-reservation.php:2196
+msgid "You have not selected any of the operations"
+msgstr "Вы не выбрали ни одну из операций"
+
+#: wp-reservation.php:1417
+#: wp-reservation.php:1673
+#: wp-reservation.php:1818
+#: wp-reservation.php:2210
+msgid "Selected records changed"
+msgstr "Выбранные записи изменены"
+
+#: wp-reservation.php:1430
+#: wp-reservation.php:1830
+#: wp-reservation.php:2221
+msgid "Selected records deleted"
+msgstr "Выбранные записи удалены"
+
+#: wp-reservation.php:1452
+msgid "Row"
+msgstr "Строка"
+
+#: wp-reservation.php:1452
+msgid "Capacity"
+msgstr "Ёмкость"
+
+#: wp-reservation.php:1452
+msgid "Operations"
+msgstr "Действия"
+
+#: wp-reservation.php:1562
+msgid "Adding resource"
+msgstr "Добавление ресурса"
+
+#: wp-reservation.php:1567
+msgid "Please input a resource name"
+msgstr "Пожалуйста введите имя ресурса"
+
+#: wp-reservation.php:1576
+msgid "Deleting resource"
+msgstr "Удаление ресурса"
+
+#: wp-reservation.php:1581
+msgid "Are you sure you want to delete this entry, will also remove all children resources"
+msgstr "Вы уверены, что хотите удалить эту запись, также будут удалены все подчиненные ресурсы"
+
+#: wp-reservation.php:1701
+msgid "Client"
+msgstr "Клиент"
+
+#: wp-reservation.php:1702
+msgid "Cost"
+msgstr "Стоимость"
+
+#: wp-reservation.php:1705
+#: wp-reservation.php:2241
+#: wp-reservation.php:2277
+msgid "Comment"
+msgstr "Комментарий"
+
+#: wp-reservation.php:1706
+msgid "Payment System"
+msgstr "Платёжная система"
+
+#: wp-reservation.php:1767
+#: wp-reservation.php:1923
+#: wp-reservation.php:2324
+msgid "Bulk Actions"
+msgstr "Действие с выбранными"
+
+#: wp-reservation.php:1768
+#: wp-reservation.php:1924
+#: wp-reservation.php:2325
+msgid "Change"
+msgstr "Изменить"
+
+#: wp-reservation.php:1769
+#: wp-reservation.php:1925
+#: wp-reservation.php:2326
+msgid "Delete"
+msgstr "Удалить"
+
+#: wp-reservation.php:1771
+#: wp-reservation.php:1927
+#: wp-reservation.php:2328
+msgid "Apply"
+msgstr "Применить"
+
+#: wp-reservation.php:1794
+#: wp-reservation.php:2188
+msgid "To add a record, you must specify all the parameters. Record was not added."
+msgstr "Для добавления записи, нужно указать все параметры. Запись не была добавлена."
+
+#: wp-reservation.php:1837
+msgid "Select"
+msgstr "выбрать"
+
+#: wp-reservation.php:1840
+msgid "Composition of order"
+msgstr "Состав заказа"
+
+#: wp-reservation.php:1841
+#: wp-reservation.php:2232
+msgid "Adding record"
+msgstr "Добавить запись"
+
+#: wp-reservation.php:1847
+#: wp-reservation.php:1879
+msgid "Reserved beds"
+msgstr "Забронировано мест"
+
+#: wp-reservation.php:1848
+#: wp-reservation.php:1880
+#: wp-reservation.php:2238
+#: wp-reservation.php:2274
+msgid "Price per bed"
+msgstr "Цена за 1 место"
+
+#: wp-reservation.php:1864
+#: wp-reservation.php:2259
+msgid "Add"
+msgstr "Добавить"
+
+#: wp-reservation.php:1872
+#: wp-reservation.php:2267
+msgid "Changing records"
+msgstr "Изменение записей"
+
+#: wp-reservation.php:1913
+msgid "beds"
+msgstr "мест"
+
+#: wp-reservation.php:2173
+msgid "Created an order"
+msgstr "Создан заказ"
+
+#: wp-reservation.php:2228
+msgid "select"
+msgstr "выбрать"
+
+#~ msgid "Description room"
+#~ msgstr "Описание номера"
+#~ msgid "Beds in the room"
+#~ msgstr "Мест в номере"
+#~ msgid "Minimal order"
+#~ msgstr "Минимальный заказ"
+#~ msgid "Types of room"
+#~ msgstr "Типы номеров"
+#~ msgid "Types of rooms"
+#~ msgstr "Типы номеров"
+#~ msgid "Date begin"
+#~ msgstr "Дата начала"
+#~ msgid "Date end"
+#~ msgstr "Дата окончания"
+#~ msgid "Type of room"
+#~ msgstr "Тип номера"
+#~ msgid "Go to pay"
+#~ msgstr "Перейти к оплате"
+#~ msgid "Make order"
+#~ msgstr "Сделать заказ"
+#~ msgid "Actions"
+#~ msgstr "Акции"
+#~ msgid "Select arrival date and number of days stay"
+#~ msgstr "Выберите дату заезда и количество дней проживания"
+#~ msgid "Here you can order"
+#~ msgstr "Здесь вы можете сделать заказ"
+#~ msgid "Authorize"
+#~ msgstr "Авторизоваться"
+#~ msgid "authorize"
+#~ msgstr "Авторизоваться"
+#~ msgid "write date and kol proj days"
+#~ msgstr "Выберите дату заезда и количество дней проживания"
+
+#, fuzzy
+#~ msgid "You must select a payment system"
+#~ msgstr "Вы не выбрали систему оплаты"
+
+#, fuzzy
+#~ msgid "amounts persons"
+#~ msgstr "кол-во человек"
+
+#, fuzzy
+#~ msgid "Errors during form sent:"
+#~ msgstr "При заполнении формы возникли следующие ошибки:"
+

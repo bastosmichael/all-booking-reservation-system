@@ -1,0 +1,121 @@
+#calendar{
+	font-family: Arial, Verdana;	
+	font-size: 12px;
+}
+
+/* LINKS */
+a                 { color:#0160b0; text-decoration:none; }
+a:link            { color:#0160b0; text-decoration:none; }
+a:hover           { color:#336699; text-decoration:underline; }
+a:visited         { color:#0160b0; text-decoration:none; }
+a:visited:hover   { color:#336699; text-decoration:underline; }
+
+#calendar_header  				{ width:99%; }
+#calendar_header .caption_left 	{ width:33%; text-align:left; }
+#calendar_header .caption 		{ width:34%; font-size: 16px; font-weight:bold; text-align:center; }
+#calendar_header .types_changer { width:33%; font-size: 12px; font-weight:normal; text-align:right; }
+
+
+/* MONTLY CALENDAR */
+/** ------------------------------------------------------------------------ **/
+#calendar .td,
+#calendar .td_empty,
+#calendar .td_actday,
+#calendar .td_selday{
+	width:14%;
+	text-align: left;
+	vertical-align: top;
+	padding:3px; 
+	padding-left:5px;
+	padding-top:5px;
+}
+
+#calendar .month  			{ width:99%; align:left; border:1px solid #ccc; margin:8px; border-collapse:collapse; }
+#calendar .tr_days   		{ height:32px; background-color:#f1f1f1;color:#000;}
+#calendar .tr				{ }
+#calendar .td 				{ border:1px solid #ddd; color:#555; background-color:#ffffff; }
+#calendar .td_empty 		{ border:1px solid #ddd; color:#555; background-color:#f1f2f3; }
+#calendar .td_actday 		{ background-color:#f31055;color:#fff; font-weight:bold; }
+#calendar .td_actday a		{color:#fff;}
+
+#calendar .td_selday 		{ background-color:#ffffcc; border:1px; color:#555; font-weight:bold; }
+#calendar .th 				{ height:26px; text-align:center; align:left; font-weight:bold; padding-top:3px; padding-bottom:3px; padding:5px; color:#000; }
+#calendar .days{font-size:18px;text-align:center;width:98%;color:#888;background-color:#ffffff;}
+
+/* SMALL MONTLY CALENDAR */
+/** ------------------------------------------------------------------------ **/
+#calendar .td_small,
+#calendar .td_small_empty,
+#calendar .td_small_actday,
+#calendar .td_small_selday{
+	width:14%;
+	text-align: right;
+	vertical-align: top;
+	padding:1px; 
+	padding-right:3px;
+}
+
+#calendar .year_container   { width:100%; align:center; margin-top:8px; border:1px solid #ccc; border-collapse:collapse; }
+#calendar .month_small	    { width:96%; align:center; border:1px solid #ccc; margin-top:5px; border-collapse:collapse; }
+#calendar .tr_small_days    { background-color:#f1f1f1; background-image: url(images/header_bg.gif); background-repeat: repeat-x; }
+#calendar .tr_small         { }
+#calendar .td_small         { border:1px solid #ddd; color:#555; background-color:#ffffff; }
+#calendar .td_small_empty 	{ border:1px solid #ddd; color:#555; background-color:#f1f2f3; }
+#calendar .td_small_actday  { background-color:#0466ba; color:#fff; font-weight:bold; }
+#calendar .td_small_selday  { background-color:#ffffcc; border:1px; color:#555; font-weight:bold; }
+#calendar .th_small         { text-align:center; align:center; font-weight:bold; padding-top:1px; padding-bottom:1px; padding:2px; color:#fff; }
+
+
+/* NAVIGATION BAR */
+#calendar .table_navbar   	{ border:0px; width:100%; height: 40px; }
+#calendar .tr_navbar   		{ width:25%; background-color:#ffffff; height:30px; }
+#calendar .tr_navbar_left 	{ width:33%; background-color:#ffffff; height:30px; padding-left:7px; text-align:left; }
+#calendar .tr_navbar_right 	{ width:50%; background-color:#ffffff; height:30px; padding-right:7px; text-align:right; }
+#calendar .tr_navbar_top 	{ width:80%; background-color:#ffffff; height:30px; padding-left:7px; text-align:left; }   
+
+#calendar .class_form       { padding:0px; margin:0px; }
+#calendar .form_select      { font-size:12px; }
+#calendar .form_button      { font-size:12px; }
+
+.resint{margin:10px;border:1px solid #ccc;padding:10px;text-align:center;}
+.tablecart{width:98%;}
+.tablespan{font-weight:bold;}
+.submit, .black button {
+background:none repeat scroll 0 0 #2A2A2A;
+}
+button {
+background: #2A2A2A;
+cursor:pointer;
+width:110px;
+font-size:12px;
+border:0 none;
+color:#FFFFFF;
+font-family:Georgia,"Times New Roman",serif;
+font-style:normal;
+height:30px;
+margin:0;
+overflow:visible;
+padding:7px 10px;
+text-align:center;
+}
+
+.tr_navbar_top .category {
+    width: 200px;
+}
+
+.tr_navbar_top .category {
+    border-bottom-color: #EEEEEE;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-top-color: #EEEEEE;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: #4A4A4A;
+    font-family: Georgia,"Times New Roman",serif;
+    font-style: italic;
+    height: 30px;
+    padding-bottom: 4px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 4px !important;  
+}

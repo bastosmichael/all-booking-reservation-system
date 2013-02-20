@@ -1,0 +1,7 @@
+﻿div.jHtmlArea .ToolBar ul li a.custom_disk_button
+        {
+            background: url(images/disk.png) no-repeat;
+            background-position: 0 0;
+        }
+
+        div.jHtmlArea { border: solid 1px #ccc; }
